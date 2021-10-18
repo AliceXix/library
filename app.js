@@ -35,3 +35,10 @@ app.use("/", bookRoutes);
 require("./error-handling")(app);
 
 module.exports = app;
+
+
+//-------------------------//
+
+const Book = require('./models/Book.model');
+
+console.log(`------------------------------>>>>>> ${Book}`)
