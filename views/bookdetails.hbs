@@ -4,3 +4,11 @@
     <h3>Title: {{detailsFromBook.title}}</h3>
     <p>{{detailsFromBook.description}}</p>
 </div>
+
+<button>
+    <a href="/bookdetails/{{detailsFromBook.id}}/edit">Edit Book here</a>
+</button>
+
+<form action="/bookdetails/{{detailsFromBook.id}}/delete" method="POST">
+    <button type="submit">Delete Book</button>
+</form>

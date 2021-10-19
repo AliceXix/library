@@ -8,8 +8,6 @@ mongoose.connect(MONGO_URI, {
     useUnifiedTopology: true,
 });
 
-// PASTE HERE THE LIST OF BOOKS PROVIDED IN THIS GIST: https://gist.github.com/ironhack-edu/2816267a015d4870f95275cb873d33b6
-
 const books = [
     {
         title: "The Hunger Games",
